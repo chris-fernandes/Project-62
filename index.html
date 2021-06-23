@@ -1,40 +1,126 @@
 <!DOCTYPE html>
-<html>
- <head>
-     <title>Project-79</title>
-     <link rel="stylesheet" type="text/css" href="style.css">
-     <script src="main.js"></script>
- </head> 
- <body>
-  <center>
-   <h3 style="margin-top: 20px; margin-bottom: 20px;">
-    Guest List
-</h3>
-
-<div>
- <input type="text" placeholder="Guest Name" id="name_of_people">
- <br>
-</div>
-<button onclick=submit id="submit_button">
- Submit    
-</button>
+<html lang="en">
+<head>
+  <title>IPL 2021</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
 
 
-
-<div id="display_name_with_commas" style="font-weight:bold;">
-
-</div>
-<hr>
-<div id="display_name_without_commas"></div> 
-
-
-<button onclick=sorting() id="sort_button">
-Sort
-</button>
-  </center> 
-  <script>
-
-      
-  </script>  
- </body>  
-</html>
+    
+    <section id="IPL">
+        <h1>Vivo IPL 2021</h1><br>
+        <img src="https://resources.platform.iplt20.com/IPL/photo/2019/01/08/d615c790-3043-438d-95c2-49a7111d8104/IPL-logo.jpg" width=450 height=450>
+     </section>
+    
+    <section id="grid">
+        <h2>Grid Gallery</h2>
+        <span> <img src="https://i.pinimg.com/originals/76/e9/73/76e9734b1072aa373910a05239909a33.png" width=228 height=284></span>
+        <span> <img src="https://i.pinimg.com/originals/2f/cb/26/2fcb26d07ecd0d829b2bcdd53deda8d6.png" width=228 height=284></span>
+        <span> <img src="https://static.iplt20.com/players/210/2972.png"width=228 height=284></span>
+        <span> <img src="https://static.iplt20.com/players/210/107.png"width=228 height=284></span>
+    <div>
+      <span> <img src="https://static.iplt20.com/players/210/1.png" width=228 height=284></span>  
+      <span> <img src="https://i.pinimg.com/originals/33/29/d3/3329d3a5ae945eb704bc42d60664ca2d.png" width=228 height=255></span>   
+      <span> <img src="https://static.iplt20.com/players/210/197.png" width=228 height=284></span>  
+      <span> <img src="https://static.iplt20.com/players/210/258.png" width=228 height=284></span>  
+    </div><br>
+    </section>
+    <section id="sliding">
+    <h2><p> Sliding Gallery</p></h2>
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            
+            <div class="carousel-inner">
+                
+                <div class="item-active">
+                    <center>
+                        <img src="https://i.pinimg.com/originals/76/e9/73/76e9734b1072aa373910a05239909a33.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> Virat Kohli </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="https://i.pinimg.com/originals/2f/cb/26/2fcb26d07ecd0d829b2bcdd53deda8d6.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> David Warner </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="https://static.iplt20.com/players/210/2972.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> Rishabh Pant </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="https://static.iplt20.com/players/210/107.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> Rohit Sharma </p>
+                        </div>
+                    </center>
+                </div>
+                 <div class="item">
+                    <center>
+                        <img src="https://static.iplt20.com/players/210/1.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> MS Dhoni </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="https://i.pinimg.com/originals/33/29/d3/3329d3a5ae945eb704bc42d60664ca2d.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> KL Rahul </p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <img src="https://static.iplt20.com/players/210/197.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> Eoin Morgan </p>
+                        </div>
+                    </center>
+                </div>
+                 <div class="item">
+                    <center>
+                        <img src="https://static.iplt20.com/players/210/258.png" class="img-responsive">
+                        <div class="carousel-content">
+                            <p> Sanju Samson </p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+             <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            
+             <a class="right carousel-control" href="#mycarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+              <ol class="carousel-indicators">
+                    <li data-target="mycarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="mycarousel" data-slide-to="1"></li>
+                    <li data-target="mycarousel" data-slide-to="2"></li>    
+                    <li data-target="mycarousel" data-slide-to="3"></li>  
+                  <li data-target="mycarousel" data-slide-to="4"></li>  
+                  <li data-target="mycarousel" data-slide-to="5"></li>  
+                  <li data-target="mycarousel" data-slide-to="6"></li>  
+                  <li data-target="mycarousel" data-slide-to="7"></li>  
+            </ol>
+        </div>
+        
+    </section>
+</body> 
+</html> 
